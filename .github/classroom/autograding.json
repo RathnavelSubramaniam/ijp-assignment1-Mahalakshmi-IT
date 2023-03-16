@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Inherit Parent class",
+      "setup": "super.getData(); \t\tSystem.out.println(y);",
+      "run": "gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
